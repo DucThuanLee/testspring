@@ -5,6 +5,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class RestController {
     @GetMapping("/")
     public String index() {
-        return "TEst commit Greetings from Spring Boot test project";
+        return "2 TEst commit Greetings from Spring Boot test project";
 }
 }
